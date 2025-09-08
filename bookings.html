@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+</head>
+<body>
+   <section id="Bookings">
+    <h2>Book Your Tickets</h2>
+    <form action="">
+         <fieldset>
+          <legend>Details </legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+          
+          <label for="Gender">Gender<input type="radio" name="gender" value="male" required/> male</label>
+          <label for="Gender"><input type="radio" name="gender" value="female"> female</label><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Tickets</legend>
+
+            <label for="movie name">Choose Movie Name</label>
+            <select id="movie" name="movie">
+            <optgroup label="Now Showing">
+              <option value="">Kingdom</option>
+              <option value="">Hari Hara VeeraMallu</option>
+              <option value="">War2</option>
+              <option value="">Kanappa</option>
+              <option value="">ShowTime</option>
+            </optgroup>
+          </select><br />
+
+            <label for="movie">Choose No. Tickets:</label>
+            <select id="movie" name="movie">
+            <optgroup label="Now Showing">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </optgroup>
+          </select><br />
+          </fieldset>
+          <fieldset>
+            <legend>Payment</legend>
+            <a href="./phonepay.jpg" ><img src="./phonepay.jpg" alt="phonepay" height="200" width="200"></a>
+            <a href="./paytm.webp" ><img src="./paytm.webp" alt="paytm" height="200" width="200"></a>
+            <a href="./gpay.png" ><img src="./gpay.png" alt="gpay"  height="200" width="200"></a>
+          </fieldset>
+    </form>
+</body>
+</html>
